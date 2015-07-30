@@ -1,7 +1,4 @@
----
-tags: cocoapods, uitableview
-languages: objc
----
+
 
 # flashy-tableviews
 
