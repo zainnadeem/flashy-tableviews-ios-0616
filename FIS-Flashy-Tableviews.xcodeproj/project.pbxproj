@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5876AB1BA31E70006D18FE /* FISTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5876AA1BA31E70006D18FE /* FISTableViewController.m */; };
 		5BB9A4B51BA317C5001C350A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9A4B41BA317C5001C350A /* main.m */; };
 		5BB9A4B81BA317C5001C350A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9A4B71BA317C5001C350A /* AppDelegate.m */; };
-		5BB9A4BB1BA317C5001C350A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9A4BA1BA317C5001C350A /* ViewController.m */; };
 		5BB9A4BE1BA317C5001C350A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB9A4BC1BA317C5001C350A /* Main.storyboard */; };
 		5BB9A4C01BA317C5001C350A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB9A4BF1BA317C5001C350A /* Images.xcassets */; };
 		5BB9A4C31BA317C5001C350A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB9A4C11BA317C5001C350A /* LaunchScreen.xib */; };
@@ -29,13 +29,13 @@
 
 /* Begin PBXFileReference section */
 		2982EE5E706B997558331CE4 /* libPods-FIS-Flashy-Tableviews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIS-Flashy-Tableviews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5876A91BA31E70006D18FE /* FISTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTableViewController.h; sourceTree = "<group>"; };
+		5B5876AA1BA31E70006D18FE /* FISTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTableViewController.m; sourceTree = "<group>"; };
 		5BB9A4AF1BA317C5001C350A /* FIS-Flashy-Tableviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIS-Flashy-Tableviews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB9A4B31BA317C5001C350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BB9A4B41BA317C5001C350A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BB9A4B61BA317C5001C350A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BB9A4B71BA317C5001C350A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5BB9A4B91BA317C5001C350A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5BB9A4BA1BA317C5001C350A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5BB9A4BD1BA317C5001C350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BB9A4BF1BA317C5001C350A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BB9A4C21BA317C5001C350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 			children = (
 				5BB9A4B61BA317C5001C350A /* AppDelegate.h */,
 				5BB9A4B71BA317C5001C350A /* AppDelegate.m */,
-				5BB9A4B91BA317C5001C350A /* ViewController.h */,
-				5BB9A4BA1BA317C5001C350A /* ViewController.m */,
+				5B5876A91BA31E70006D18FE /* FISTableViewController.h */,
+				5B5876AA1BA31E70006D18FE /* FISTableViewController.m */,
 				5BB9A4BC1BA317C5001C350A /* Main.storyboard */,
 				5BB9A4BF1BA317C5001C350A /* Images.xcassets */,
 				5BB9A4C11BA317C5001C350A /* LaunchScreen.xib */,
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB9A4BB1BA317C5001C350A /* ViewController.m in Sources */,
+				5B5876AB1BA31E70006D18FE /* FISTableViewController.m in Sources */,
 				5BB9A4B81BA317C5001C350A /* AppDelegate.m in Sources */,
 				5BB9A4B51BA317C5001C350A /* main.m in Sources */,
 			);
