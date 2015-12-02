@@ -12,3 +12,5 @@ Let's play with a few more CocoaPods that I think are pretty great.
 ## Advanced
 
   1. The cell returns the button presses using a delegate. Add `<SWTableViewCellDelegate>` in the header declaration and implement this method `(void)swipeableTableViewCell:(SWTableViewCell *)cell didTriggerRightUtilityButtonWithIndex:(NSInteger)index;`.
+
+<a href='https://learn.co/lessons/flashy-tableviews' data-visibility='hidden'>View this lesson on Learn.co</a>
